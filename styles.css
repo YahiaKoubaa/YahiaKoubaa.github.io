@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size: x-large;
+    font-family:Inter,sans-serif;
+}
+
+body{
+    background-color: #0B132B;
+}
+.parent{
+    width: 80%;
+    min-width: 648px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: max(72px,10%);
+    background-color:rgba(255,255,255,.85);
+    backdrop-filter:blur(12px);
+
+    border-radius:40px;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+    display: inline-block;
+}
+.elements{
+    display: inline-block;
+    width: 30%;
+}
+.nav-links{
+    text-align: center;
+    font-size: xx-large;
+    padding: 1%;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#3b82f6;
+}
+.title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 300%;
+    color: aquamarine;
+    text-align: center;
+}
+figure {
+    text-align: center;
+}
+.avatar {
+    width: 40%;
+    min-width: 720px;
+    margin-bottom: 2%;
+}
+.first {
+    width: 60%;
+    min-width: 720px;
+    background-color: rgba(255,255,255,.85);
+    border-radius: 10px;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+.second {
+    width: 60%;
+    min-width: 720px;
+    background-color: rgba(255,255,255,.85);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+.whodiv{
+    width: 60%;
+    min-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.whodiv1{
+    width: 80%;
+    min-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.whodiv2{
+    width: 100%;
+    min-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.who {
+    text-align: left;
+    color: aquamarine;
+    font-size: 200%;
+}
+.achivements {
+    color: aquamarine;
+    font-size: 200%;
+}
+.achivements-img1 {
+    min-width: 355px;
+    margin-right: 0;
+    width: 40%;
+    height: 360px;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.achivements-img2 {
+    min-width: 355px;
+    margin-left: 0;
+    width: 40%;
+    height: 360px;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.Awards {
+    color: whitesmoke;
+}
+.Interests {
+    text-align: center;
+    color: aquamarine;
+    font-size: 200%;
+}
+.Interests-img {
+    width: 60%;
+    min-width: 720px;
+}
